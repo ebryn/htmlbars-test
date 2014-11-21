@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('blank');
+  this.resource('longList');
 });
 
 export default Router;
